@@ -14,7 +14,7 @@ const checkStudent = (student: Student): string => {
 };
 
 // Example
-const s1: Student = { firstName: "Light", lastName: "Boy", age: 21, gpa: 2.5 };
+const s1: Student = { firstName: "Light", lastName: "Boys", age: 21, gpa: 2.5 };
 const s2: Student = { firstName: "Jeernag", lastName: "Wongwut", age: 22, gpa: 1.8 };
 
 console.log(checkStudent(s1));
