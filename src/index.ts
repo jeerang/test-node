@@ -1,13 +1,5 @@
-let score =55
-if (score > 80) {
-    console.log('Grade A')
-} else if (score > 70){
-    console.log('Grade B')
-} else if (score > 60){
-    console.log('Grade C')
-} else if (score > 50){
-    console.log('Grade D')
-}
-else {
-    console.log('Grade F')
-}
+import { add,subtract } from './funtions';
+const result = add(1,2) + 0;
+const result2 = subtract(1,2) + 0;
+console.log(result, 'type of result:', typeof result);
+console.log(result2, 'type of result2:', typeof result2);
